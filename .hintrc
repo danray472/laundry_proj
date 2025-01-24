@@ -3,7 +3,13 @@
     "development"
   ],
   "hints": {
-    "disown-opener": "off",
-    "no-inline-styles": "off"
+    "axe/parsing": [
+      "default",
+      {
+        "marquee": "off"
+      }
+    ],
+    "no-inline-styles": "off",
+    "disown-opener": "off"
   }
 }
